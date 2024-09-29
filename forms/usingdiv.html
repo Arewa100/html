@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Using divs to create a standard form</title>
+</head>
+<body>
+    <div id="wrapper">
+
+        <h1>Welcome to Total Enterprise</h1>
+        <p><b>home of creators</b></p>
+        
+        <form action="#" method="post">
+            <div id="profile">
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="" placeholder="enter your first name">
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="" placeholder="enter your last name">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="" placeholder="enter your password">
+                <label for="password">Confirm Password:</label>
+                <input type="password" name="password" id="" placeholder="enter yout password">
+            </div>
+            <div id="gender">
+                <label for="gen">male:</label>
+                <input type="radio" name="gen" id="">
+                <label for="gen">female:</label>
+                <input type="radio" name="gen" id="">
+                <label for="gen">custom:</label>
+                <input type="radio" name="gen" id="">
+            </div>
+            <div id="contact">
+                <label for="address">address:</label>
+                <textarea name="address" id="" cols="30" rows="10"></textarea>
+                <label for="telephone">Telephone:</label>
+                <input type="tel" name="telephone" id="" placeholder="enter your number">
+            </div>
+            <div id="education">
+                <label for="school">High School</label>
+                <select name="school" id="">
+                    <option value="1">kith and Kin schools</option>
+                    <option value="2">Good Sheperd High school</option>
+                    <option value="3">Kings College</option>
+                    <option value="4">Queens College</option>
+                    <option value="5">Home Science</option>
+                </select>
+                <h3>Credentials</h3>
+                <label for="upload"></label>
+                <input type="file" name="file" id="">
+            </div>
+            <div id="submitfoam">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>

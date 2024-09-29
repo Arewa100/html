@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to forms and css</title>
+<!--intro to internal/embedded styling-->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(52, 24, 143);
+            width: 100%;
+            max-height: 100vh;
+        }
+        .container {
+            background-color: rgb(33, 49, 88);
+            margin: 200px auto;
+            width: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            max-height: 100vh;
+
+        }
+        input {
+            width: 100%;
+            padding: 5px 0px;
+            margin-top: 10px;
+        }
+        label {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <form action ="" method="post">
+        <label for="">USERNAME</label><br>
+        <input type="text" name="name" placeholder="username" title="enter your username"><br>
+
+        <label for="">PASSWORD</label><br>
+        <input type="password" name="password" placeholder="password" title="enter your password"><br>
+
+       <label for="">ID-NUMBER</label><br>
+       <input type="number" name="number" placeholder="id-number" title="enter your id number"><br>
+
+       <label for="">EMAIL</label><br>
+       <input type="email" name="email" placeholder="email" title="enter your email"><br>
+       
+       <input type="submit" value="submit">
+    
+
+    </form>   
+  </div>
+
+  <img src="my images/gettyimages-1438698662-170667a.jpg" alt="exerise" title="exerise">
+  <video src="./myvideo.mp4" controls></video>
+
+</body>
+</html>

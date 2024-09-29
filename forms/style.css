@@ -1,0 +1,42 @@
+*{
+    margin:0;
+}
+
+#wrapper {
+    /* background-color: rgb(86, 64, 113);
+    color: white; */
+}
+#title {
+    background-color: rgb(73, 13, 130); 
+    color: white;
+    text-align: center;
+}
+
+form {
+    background-color: rgb(73, 13, 130);
+    border-width: .2rem;
+    border-style: ridge;
+    border-color: white;
+    width: 50%;
+    margin: 10vh auto;
+}
+.profile {
+    color: rgb(43, 186, 226)
+}
+.gender {
+    color: rgb(43, 186, 226)
+}
+.contact {
+    color: rgb(43, 186, 226);
+}
+.education {
+    color: rgb(43, 186, 226);
+}
+input {
+    height: 5vh;
+    border-radius: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.submit {
+    text-align: center;
+}
