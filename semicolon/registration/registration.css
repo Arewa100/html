@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	background-color: white;
+}
+.name input {
+	padding: 16px;
+	margin: 20px;
+	border-style: ridge;
+	border-color: red;
+	border-width: .1rem;
+}
+
+.email input {
+	padding: 16px;
+	margin: 50px;
+	border-style: ridge;
+	border-color: red;
+	border-width: .1rem;
+	
+
+}
+.country-code {
+	padding: 16px;
+	margin: 20px;
+	border-style: ridge;
+	border-color: red;
+	border-width: .1rem;
+}

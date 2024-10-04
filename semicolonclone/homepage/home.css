@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    margin: 16px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li,a {
+    padding: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul img.logo {
+    margin-right: 10%;
+}
+
+nav ul li a.services:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+nav ul li a.services {
+    font-family: Arial, Helvetica, sans-serif;;
+    color: rgb(53, 74, 102);
+    font-size: .9rem; 
+}
+
+.talentpoolbutton {
+   border-style: ridge;
+   border-color: red;
+   border-radius: .8rem;
+
+}
+
+nav ul li a.pool {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article.introduction {
+    /* background-color: red; */
+    display: flex;
+    justify-content: right;
+
+}
+
+article.introduction .world-image img {
+    width: 550px;
+    height: 400px;
+}
+
+article.introduction div.world-image{
+    margin-right: 6%;
+}
+
+article.introduction .intro {
+    /* background-color: blue; */
+    width: 4000px;
+    height: 300px;
+    margin-right: 8%;
+}
+
+article.introduction .intro h1 {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 2.9rem;
+    color:rgb(53, 74, 102);
+   
+}
+ .intro p {
+    padding-left: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+    width: 75%;
+    height: 76px;
+    color:rgb(53, 74, 102);
+}
+.button .individual-button {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    margin-left: 48px;
+    border-radius: .6rem;
+    width: 190px;
+    padding: 15px;
+}
+
+.button .business-button {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    background-color: white;
+    color: red;
+    margin-left: 30px;
+    border-radius: .6rem;
+    border: ridge .2rem red;
+    width: 190px;
+    padding: 15px;
+}
+
+
+article.mission-vision-statement {
+    /* background-color: red; */
+    display: flex;
+    justify-content: right;
+}
+
+article.mission-vision-statement .mission-statements {
+    width: 680px;
+    height: 380px;
+    background-color: red;
+    margin-right:710px;
+    border-radius: 20px;
+    opacity: 0.8;
+
+}
+
+.mission {
+    /* background-color: red; */
+    width: 89%;
+    height:60%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    margin-top: 80px;
+    margin-left: 50px;
+    color: white;
+}
+
+p.mission>span {
+    font-size: 250%;
+    color: white
+}
+
+

@@ -1,5 +1,6 @@
 *{
     margin:0;
+    border-style: ;
 }
 
 #wrapper {
@@ -13,12 +14,13 @@
 }
 
 form {
-    background-color: rgb(73, 13, 130);
+    background-color: rgba(157, 97, 103, 0.011);
     border-width: .2rem;
     border-style: ridge;
     border-color: white;
     width: 50%;
     margin: 10vh auto;
+    
 }
 .profile {
     color: rgb(43, 186, 226)

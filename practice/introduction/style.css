@@ -1,0 +1,17 @@
+.thebody {
+	background-color: red;
+}
+
+
+ul {
+	background-color: blue;
+}
+
+ul li {
+	border-style: ridge;
+	border-color: black;
+	border-width: .2rem;
+	list-style: none;
+	float: left;
+	margin-left: 16px;
+}
