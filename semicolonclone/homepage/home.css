@@ -199,8 +199,34 @@ p.box-image {
 }
 
 article.process {
+    display: flex;
+    justify-content: right;
     margin-top: 160px;
-    background-color: red;
+    background-color: blue;
+    opacity: 0.6;
     height: 380px;
 }
 
+#how-we-do-it {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-size: 180%;
+    color:rgb(53, 74, 102);
+    margin-left: 0.8rem;
+}
+
+#how-we-do-it>span{
+    color:red;
+    opacity: 0.8;
+}
+
+article .selection-buttons {
+    background-color: red;
+    margin-right: 82%;
+    width: 200px;
+}
+
+select {
+    color: red;
+    
+}

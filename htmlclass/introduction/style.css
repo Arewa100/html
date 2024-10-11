@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 80vw;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(239, 236, 229);
+}
+
+
+
+/* .heroSection {
+    background-color:  rgb(48, 150, 228);
+    height: 200px;
+   
+} */
+
+.heroWriteUp .girl-image img {
+    width: 200px;
+    margin-top: 1px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(239, 236, 229);
+    font-size: small;
+    
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(48, 150, 228);
+    align-items: center;
+    height: 50px;
+}
+
+li>a{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: .3rem;
+    padding: 2px;
+}
+
+li>a:hover {
+    background-color:  rgb(28, 129, 206);
+    flood-opacity: 3px;
+}
+
+.heroWriteUp{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(48, 150, 228);
+    margin: 10vh auto;
+    gap:2px;
+    height: 135px;
+
+}
+input{
+    line-height: 16px;
+    border: none;
+    border-radius: .1rem;
+    
+
+}
+
+.login {
+    /* background-color: pink; */
+    text-align: center;
+}
+
+.login button {
+    color: white;
+    padding: .1rem;
+    width: 60px;
+    background-color: rgb(34, 27, 27);
+    border: solid .1rem rgb(223, 165, 18);
+    border-radius: .3rem;
+    
+}
+
+.login button:hover {
+    color: rgb(223, 165, 18);
+}
+
+.theForm input::placeholder {
+    padding-left: 14px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:0.6rem;
+}
