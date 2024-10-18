@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 95vw;
+    margin: auto;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 1258px;
+    height: 44px;
+    margin-top: 33px;
+    margin-left: 91px;
+    gap: 339px;
+
+}
+
+.first-frame {
+    display: flex;
+    gap: 20px;
+}
+
+.navContent ul {
+    display: flex;
+    list-style: none;
+    /* background-color: pink; */
+    width: 508px;
+    height: 28px;
+    gap: 38px;
+}
+
+.header-image {
+    display: flex;
+    gap: 10px;
+    width: 139px;
+    height: 33px;
+    /* background-color: palegoldenrod; */
+}
+
+img {
+    width: 33px;
+    height: 33px;
+}
+.header-image p {
+    width: 96px;
+    height: 30px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color:#2995E2;
+}
+
+ul li>a {
+    text-decoration: none;
+}
+
+
+ul li>a.services {
+    color: #242424;
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28.11px;
+    width: 55px;
+    height: 28px;
+}
+
+ul li>a.donate {
+    color: #3F3F3F;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28.11px;
+    width: 47px;
+    height: 28px;
+}
+
+ul li>a.who-we-are {
+    color: #3F3F3F;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28.11px;
+    width: 76px;
+    height: 28px;
+}
+
+ul li>a.join-us {
+    color: #3F3F3F;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28.11px;
+    width: 43px;
+    height: 28px;
+}
+
+ul li>a.contact-us {
+    color: #3F3F3F;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28.11px;
+    width: 68px;
+    height: 28px;
+}
+
+ul li>a.blog {
+    color: #3F3F3F;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28.11px;
+    width: 29px;
+    height: 28px;
+}
+.button {
+    border-color: #8E8E8E;
+    border-style: solid;
+    width: 130px;
+    height: 44px;
+    border-width: 1px;
+    background-color: pink;
+    gap: 10px;
+}
+
+.button {
+    color:#3F3F3F ;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    background-color: red;
+    line-height: 29.98px;
+   
+}
+
+
+
