@@ -282,7 +282,7 @@ article.introductory p {
     width: 1350px;
     display: flex;
     /* justify-content: space-between; */
-    height: 200px;
+    height: 300px;
 }
 
 .about-us-section article .about-us {
@@ -294,7 +294,8 @@ article.introductory p {
 }
 
 
-.about-us h1 {
+
+.abt-us-and-pic h1 {
 
     width: 174px;
     height: 82px;
@@ -303,9 +304,18 @@ article.introductory p {
     font-weight: 700;
     line-height: 82.46px;
     color: #3F3F3F;
-    margin:auto;
+    margin-left: 100px;
 
 }
+
+.abt-us-and-pic {
+    /* background-color: orange; */
+    display: flex;
+    width: 819px;
+    
+}
+
+
 .about-us p {
     width: 819px;
     height: 108px;
@@ -314,8 +324,136 @@ article.introductory p {
     font-size: 19px;
     text-align: center;
     line-height: 35.61px;
+    /* background-color: indigo; */
 }
 
 .about-us-section {
     margin-top: 20vh;
 }
+
+.abt-us-and-pic img {
+    width: 232px;
+    height: 85px;
+}
+.about-us span img{
+    margin-top: 1px;
+    /* background-color: aqua; */
+    width: 160px;
+    height: 97px;
+    margin-left: 495px;
+}
+
+.our-services {
+    /* background-color: pink; */
+    width: 1350px;
+    height: 600px;
+}
+
+.our-services article {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+.family-image img {
+    width: 722px;
+    height: 426px;
+    margin-top: 29vh;
+}
+
+.the-services {
+    width: 343px;
+    height: 111px;
+    margin-left: 91px;
+    /* background-color: grey; */
+}
+.the-services h1 {
+    width: 217px;
+    height: 75px;
+    font-family: "Cairo", sans-serif;
+    font-size: 40px;
+    line-height: 74.98px;
+    font-weight: 700;
+    color: #2995E2;
+}
+
+.the-services p {
+    width: 343px;
+    height: 36px;
+    font-family: "Cairo", sans-serif;
+    font-size: 19px;
+    line-height: 36.61px;
+    font-weight: 600;
+
+}
+
+.guardian {
+    width: 525px;
+    height: 319px;
+    margin-left: 91px;
+    gap: 42px;
+    /* background-color: grey; */
+    margin-top: 20vh;
+}
+
+.guardian h2 {
+    width: 525px;
+    height: 52px;
+    font-family: "Cairo", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52.47px;
+    color:#3F3F3F;
+}
+
+.guardian p {
+    width: 493px;
+    height: 144px;
+    font-family: "Cairo", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    color:#3F3F3F;
+    margin-top: 20px;
+}
+
+
+.button-div {
+    background-color: aqua;
+    margin-top: 40.5px;
+    width: 181.14px;
+    height: 62px;
+    
+}
+
+.upper-side-of-button p{
+    background-color: #2995E2;
+    width: 173.84px;
+    height: 53px;
+    gap: 12.16;
+}
+
+.upper-side-of-button p span{
+    color: #FFFFFF;
+    width: 89px;
+    height: 36px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 19.45px;
+    line-height: 50.45px;
+    margin-left: 49px;
+}
+
+
+/* .lower-side-of-button p {
+    background-color: peru;
+    width: 173.84px;
+    height: 53.49px;
+    margin-left: 7.29px;
+    
+    border-width:1.22px;
+    border-style: solid;
+    color: #4E4E4E;
+} */
+
+
