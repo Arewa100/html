@@ -15,18 +15,24 @@
     margin-top: 33px;
     margin-left: 91px;
     gap: 339px;
+    align-items: center;
+    /* background-color: pink; */
 
 }
 
 .first-frame {
     display: flex;
-    gap: 20px;
+    gap: 142px;
+    height: 33px;
+    width: 789px;
+    margin-top: 9px;
+    /* background-color: lime; */
+
 }
 
 .navContent ul {
     display: flex;
     list-style: none;
-    /* background-color: pink; */
     width: 508px;
     height: 28px;
     gap: 38px;
@@ -50,6 +56,7 @@ img {
     font-family: "Cairo", sans-serif;
     font-weight: 700;
     font-size: 16px;
+    line-height: 29.98px;
     color:#2995E2;
 }
 
@@ -117,24 +124,198 @@ ul li>a.blog {
     width: 29px;
     height: 28px;
 }
-.button {
+.the-button-div {
     border-color: #8E8E8E;
     border-style: solid;
     width: 130px;
     height: 44px;
     border-width: 1px;
-    background-color: pink;
+    /* background-color: pink; */
     gap: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .button {
-    color:#3F3F3F ;
+   width: 50px;
+   height: 30px;
+   font-weight: 600;
+   font-family: "Cairo", sans-serif;
+   font-size: 16px;
+   line-height: 29.98px;
+   color: #3F3F3F;
+   margin-top: 8px;
+}
+
+.nav-bar {
+    /* border: .2rem solid blue; */
+}
+
+article.introductory {
+    /* background-color: pink; */
+    width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    
+}
+
+article.introductory .intro {
+    width: 556px;
+    height: 186px;
+    /* background-color: aqua; */
+    margin-top: 256px;
+    margin-left: 94px;
+}
+
+article.introductory .intro {
     font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 93px;
+    color: #242424;
+}
+
+article.introductory .intro>span {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 93px;
+    color:#2995E2
+}
+
+article.introductory p {
+    font-family: "Cairo", sans-serif;
+    width: 500px;
+    height: 36px;
+    margin-left: 94px;
+    margin-top: 75px;
     font-weight: 600;
-    background-color: red;
-    line-height: 29.98px;
+    font-size: 19px;
+    line-height: 35.61px;
+    color: #3F3F3F;
+}
+
+.image {
+    width: 577px;
+    height: 467px;
+    margin-top: 195px;
    
 }
 
+.get-started-div {
+    /* background-color: #2995E2; */
+    width: 374px;
+    height: 51px;
+    gap: 46px;
+    margin-left: 94px;
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-started-button {
+    /* background-color: yellow; */
+    width: 149px;
+    height: 51px;
+}
+
+.start-button-inner-div {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2995E2;
+    width: 143px;
+    height: 44px;
+    gap: 10px;
+}
+
+.start-button-inner-div span {
+    color: #FFFFFF;
+    width: 78px;
+    height: 30px;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    line-height: 42px;
+}
+
+.button-offset {
+    background-color: red;
+    width: 143px;
+    height: 44px;
+    margin-top: 7px;
+    margin-left: 6px;
+    border-width: 1px;
+    gap: 10px;
+    border-color: #4E4E4E;
+}
+
+.watch-story {
+    /* background-color: linen; */
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    height: 36px;
+    width: 179px;
+    margin-top: 7px;
+}
+
+.watch-story span {
+    width: 129px;
+    height: 36px;
+    font-family: "Cairo", sans-serif;
+    font-size: 19px;
+    line-height: 35.61px;
+    font-weight: 600;
+    color:#3F3F3F;
+}
+
+.watch-story img {
+    width: 32px;
+    height: 32px;
+    image-resolution: 500px;
+    gap: 10px;
+    margin-top: .1rem;
+}
+
+.about-us-section article{
+    /* background-color: pink; */
+    width: 1350px;
+    display: flex;
+    /* justify-content: space-between; */
+    height: 200px;
+}
+
+.about-us-section article .about-us {
+    width: 819px;
+    height: 198px;
+    margin-left: 255px;
+    gap: 8px;
+    /* background-color:rgb(63, 109, 151); */
+}
 
 
+.about-us h1 {
+
+    width: 174px;
+    height: 82px;
+    font-family: "Cairo", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 82.46px;
+    color: #3F3F3F;
+    margin:auto;
+
+}
+.about-us p {
+    width: 819px;
+    height: 108px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    text-align: center;
+    line-height: 35.61px;
+}
+
+.about-us-section {
+    margin-top: 20vh;
+}
