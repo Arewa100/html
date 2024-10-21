@@ -456,4 +456,24 @@ article.introductory p {
     color: #4E4E4E;
 } */
 
+.help-the-elderly-section article {
+    background-color: pink;
+    width: 1350px;
+    margin-top: 150px;
+    
+}
+
+.help-the-elderly-section article img{
+    width: 641px;
+    height: 465px;
+    margin-left: 91px;
+    background-color: aqua;
+}
+
+.help-elder {
+    width: 493px;
+    height: 313px;
+    gap: 42px;
+    background-color: red;
+}
 

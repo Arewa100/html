@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*find out what it does*/
+}
+
+#wrapper {
+    width: 95vw;
+    margin: auto;
+}
+
+.forms {
+    background-color: rgba(0, 0, 0, 0.333);
+    width: 500px;
+}
+
+button:hover {
+    background-color: rgb(247, 200, 114);
+}
+button {
+    border: 1px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
