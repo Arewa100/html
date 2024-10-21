@@ -457,9 +457,12 @@ article.introductory p {
 } */
 
 .help-the-elderly-section article {
-    background-color: pink;
+    /* background-color: pink; */
     width: 1350px;
+    height: 600px;
     margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
     
 }
 
@@ -467,13 +470,205 @@ article.introductory p {
     width: 641px;
     height: 465px;
     margin-left: 91px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .help-elder {
     width: 493px;
     height: 313px;
-    gap: 42px;
-    background-color: red;
+    /* background-color: red; */
+    margin-top: 125px;
 }
 
+.help-elder p {
+    width: 261px;
+    height: 52px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 52.47px;
+    color: #3F3F3F;
+}
+
+.help-elder .info {
+    width: 433px;
+    height: 144px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 35.61px;
+    color: #4F4F4F;
+}
+
+.button-div-for-elder {
+    width: 163.61px;
+    height: 56px;
+    margin-top: 60px;
+    background-color: aqua;
+
+}
+
+.button-div-for-elder .button {
+    background-color: #2995E2;
+    width: 157.02px;
+    height: 48.31px;
+    gap: 10.98px;
+ 
+}
+
+
+.button-div-for-elder .button span{
+    color: #FFFFFF;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 17.57px;
+    line-height: 32.92px;
+    margin-left: 40px;
+    
+}
+
+
+.food-and-cloth-section article {
+    /* background-color: pink; */
+    width: 1350px;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-and-cloth-section article .buy-food-and-cloth {
+    width: 493px;
+    height: 320px;
+    margin-left: 91px;
+    gap: 42px;
+    margin-top: 50px;
+    /* background-color: red; */
+}
+.food-content {
+    width: 493px;
+    height: 215px;
+    gap: 19px;
+    /* background-color: aqua; */
+}
+
+.food-content h2{
+    width: 328px;
+    height: 52px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 52.47px;
+    color: #3F3F3F;
+}
+.food-content p{
+    width: 493px;
+    height: 144px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 35.61px;
+    color: #3F3F3F;
+}
+
+.cloth-botton .button-for-cloth {
+    background-color: #2995E2;
+    width: 157.02px;
+    height: 48.31px;
+    gap: 10.98px;
+ 
+}
+.cloth-botton .button-for-cloth span{
+    color: #FFFFFF;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 17.57px;
+    line-height: 32.92px;
+    margin-left: 40px;
+    
+}
+.cloth-botton {
+    width: 163.61px;
+    height: 56px;
+    margin-top: 48px;
+    background-color: aqua;
+}
+
+.clothing-pic img {
+    width: 678px;
+    height: 410px;
+
+}
+
+.special-help-section article {
+    width: 1350px;
+    height: 550px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: pink; */
+}
+
+.help-div {
+    width: 1148px;
+    height: 323px;
+    margin-top: 40px;
+    border-width: 12px;
+    border-color: #ffffff;
+    background-color: #2995E2;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.help-image img {
+    width: 457px;
+    height: 313px;
+    margin-top: 75px;
+    /* margin-left: 234px; */
+    margin-left: 120px;
+}
+
+.help-text-div {
+    width: 286px;
+    height: 209px;
+    gap: 18px;
+    margin-right: 150px;
+    margin-top: 95px;
+    /* background-color: red; */
+}
+
+.help-text-div h2 {
+    width: 286px;
+    height: 132px;
+    font-family: "Cairo", sans-serif;
+    color: #FFFFFF;
+    font-size: 35px;
+    line-height: 65.59px;
+    font-weight: 700;
+}
+
+.help-botton .button-for-help {
+    background-color: #ffffff;
+    width: 157.02px;
+    height: 48.31px;
+    gap: 10.98px;
+ 
+}
+.help-botton .button-for-help span {
+    color: #313131;
+    width: 105px;
+    height: 35px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 18.51px;
+    line-height: 34.69px;
+    margin-left: 30px;
+    
+}
+.help-botton {
+    width: 163.61px;
+    height: 56px;
+    margin-top: 20px;
+    background-color: aqua;
+}
