@@ -1,22 +1,26 @@
-// var form = document.getElementById("myForm");
-// function handleForm(event) {
-//      event.preventDefault(); 
-//     } 
-// form.addEventListener('submit', handleForm);
+
+const content = document.querySelector('input');
+const buttonOne = document.getElementById('button');
+const buttonTwo = document.getElementById('button2')
+const tasks = document.getElementById('tasks');
 
 
-// const handleEvent = (event)=> {
-//     return null;
-// }
+// buttonOne.addEventListener('click', (event)=> {
+//     event.preventDefault();
+//     content.setAttribute('class', 'newId')
+// })
 
-const content = document.querySelector('.register')
-const button = document.getElementById('button')
-const inputText = document.getElementById('myinput')
+// buttonTwo.addEventListener('click', (event)=> {
+//     event.preventDefault();
+//     const theAttribute = content.getAttribute('class')
+//     console.log(theAttribute)
+// })
 
-button.addEventListener('click', (event)=> {
-    event.preventDefault();
-    console.log(inputText.value)
+buttonOne.addEventListener('click', ()=> {
+    const contentOfInput = content.value
+    if(contentOfInput.trim()) {
+        const theChild = tasks
+        
+    }
 })
-
-
-// module.exports = handleEvent;
+// module.exports = handleEvent;  

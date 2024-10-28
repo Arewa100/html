@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainWrapper {
+    /* background-color: yellow; */
+}
+
+.wrapper {
+    width: 1350px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+    background-color: aqua;
+    align-items: center;
+    margin-left: 70px;
+}
+
+ul li a {
+    text-decoration: none;
+    
+}
+
+.logo-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactArea {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
