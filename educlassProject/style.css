@@ -262,3 +262,169 @@ ul li a.testimonial {
     filter: drop-shadow(16px 16px #282C420F);
     
 }
+
+.empower-student-section article{
+    width: 1440px;
+    height: 500px;
+    background-color: pink;
+    margin-top: 200px;
+}
+
+.empower-student-div {
+    width: 1180px;
+    height: 413px;
+    margin-left: 130px;
+    background-color: aquamarine;
+}
+
+.empower-student-div {
+    width: 550px;
+    height: 388px;
+    background-color: red;
+}
+
+.empower-student h1 {
+    width: 485px;
+    height: 112px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 56px;
+    font-size: 40px;
+    letter-spacing: -1%;
+    color: #063852;
+}
+
+.empower-student p {
+    width: 550px;
+    height: 78px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 26.1px;
+    letter-spacing: -0.5%;
+    font-weight: 500;
+    color: #9EA3AE;
+}
+
+.box-for-school {
+    width: 529px;
+    height: 68px;
+    margin-top: 9px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.for-cities {
+    width: 131px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+
+.city {
+    width: 59px;
+    height: 68px;
+
+}
+
+.city h1 {
+    width: 59px;
+    height: 40px;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1%;
+    font-weight: 700;
+    color: #2374EE;
+    font-family: "Poppins", sans-serif;
+}
+
+.city p {
+    width: 56px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5%;
+    color: #063852;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+.for-users {
+    width: 152px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.users {
+    width: 80px;
+    height: 68px;
+
+}
+
+.users h1 {
+    width: 80pxpx;
+    height: 40px;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1%;
+    font-weight: 700;
+    color: #2374EE;
+    font-family: "Poppins", sans-serif;
+}
+
+.users p {
+    width: 55px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5%;
+    color: #063852;
+    font-family: "Poppins", sans-serif;
+}
+
+.for-schools {
+    width: 158px;
+    height: 68px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.schools {
+    width: 80px;
+    height: 68px;
+
+}
+
+.schools h1 {
+    width: 86px;
+    height: 40px;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1%;
+    font-weight: 700;
+    color: #2374EE;
+    font-family: "Poppins", sans-serif;
+}
+
+.schools p {
+    width: 78px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5%;
+    color: #063852;
+    font-family: "Poppins", sans-serif;
+}
+
+
+

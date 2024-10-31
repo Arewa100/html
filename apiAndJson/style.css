@@ -6,24 +6,39 @@
 .mainWrapper {
     width: 95vw;
     margin: auto;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .wrapper {
-    width: 1450px;
+    width: 1800px;
+    height: 6000px;
     margin: auto;
     background-color: rgb(18, 10, 10);
+    background-image: url(./image/snap.jpg);
+    background-repeat: no-repeat;
+    background-size: 1800px;
 }
 
 .navBar {
     width: 1350px;
-    /* background-color: #2995E2; */
+    /* background-color: orange; */
     display: flex;
     justify-content: space-between;
     margin: auto;
     align-items: center;
     height: 60px;
+    border-radius: 12px;
     /* color: #ffffff; */
+}
+
+/* .movie-div {
+    display: flex;
+    justify-content: ;
+} */
+
+.movie-div img {
+    width: 80px;
+    height: 90px;
 }
 
 ul li {
@@ -35,6 +50,8 @@ ul li {
     line-height: 16px;
     color: #ffffff;
 }
+
+
 
 ul {
     display: flex;
@@ -63,7 +80,7 @@ h1 {
 
 header {
     width: 1350px;
-    height: 200px;
+    height: 100px;
     margin-top: 20px;
     /* background-color: pink; */
     margin: auto;
@@ -82,28 +99,36 @@ header .search  {
     outline: none;
 }
 
-.image img {
-    width: 445px;
-    height: 500px;
+.movies img {
+    width: 436px;
+    height: 400px;
+}
+
+.movie-section {
+    width: 1800px;
+    align-items: center;
 }
 
 .movie-section article {
     /* background-color: pink; */
-    width: 1350px;
-    height: 600px;
+    width: 1500px;
+    height: 400px;
+    margin-left: 100px;
+
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: aqua; */
     margin: auto;
-
+    gap: 90px;
 }
 
-.image {
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    /* background-color: rgb(255, 255, 255) */
-    
+.movie {
+    height: 700px;
 }
-
-.image .first-image p {
+.movies .first-image p, h2 {
     width: 450px;
     height: 20px;
     /* background-color: red; */
@@ -112,4 +137,9 @@ header .search  {
     font-weight: 600;
     font-style: italic;
     color: white;
+}
+
+.movie-section article {
+    display: flex;
+    justify-content: space-between;
 }
