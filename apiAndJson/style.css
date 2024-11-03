@@ -128,17 +128,31 @@ header .search  {
 .movie {
     height: 700px;
 }
-.movies .first-image p, h2 {
+.titleRating {
     width: 450px;
     height: 20px;
     /* background-color: red; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 600;
     font-style: italic;
     color: white;
 }
+.titleRating span{
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    border-radius: 23px;
+    background-color: rgb(222, 15, 15);
+}
 
+.titleRating .titlediv>span {
+    margin-left: 20px;
+}
+
+.titleRating h2:hover {
+    color: rgb(59, 45, 59);
+}
 .movie-section article {
     display: flex;
     justify-content: space-between;

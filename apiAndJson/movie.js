@@ -62,12 +62,14 @@ function showMovie(movies) {
                                 <div>
                                     <img src="${IMAGE_URL}${poster_path}" alt="image">
                                 </div>
+                                
                                 <div class="titleRating">
-                                    <span><p>${title}</p></span>
-                                    <span>${vote_average}</span>
+                                    <span><span>${title}</span>   <span>${vote_average}</span></span>
+            
                                     <div>
                                         <h2>${overview}</h2>
                                     </div>
+
                                 </div>
 
                                 <div>
@@ -87,7 +89,7 @@ searchMovieForm.addEventListener('keyup', (event)=> {
     const inputValue = event.target.value
 
     if(inputValue) {
-        const searchUrl =SERACH_MOVIE_URL + "&query=" + inputValue;
+        const searchUrl = SERACH_MOVIE_URL + "&query=" + inputValue;
         console.log(searchUrl)
         getMovies(searchUrl)
     }else{

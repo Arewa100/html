@@ -1,0 +1,221 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.mainWrapper {
+    width: 95vw;
+    margin: auto;
+}
+
+.wrapper {
+    width: 1440px;
+    height: 900px;
+    /* background-color: yellow; */
+    margin: auto;
+    margin-top: 200px;
+}
+
+section {
+    /* background-color: red; */
+    margin-top: 100px;
+}
+
+.calculator-body {
+    width: 600px;
+    height: 600px;
+    /* background-color: pink; */
+    margin: auto;
+    margin-top: 200px;
+    border: 12px groove rgb(42, 40, 40);
+
+}
+.screen-div {
+    width: 500px;
+    height: 80px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 20px;
+}
+
+.screen-div .screen {
+    width: 500px;
+    height: 80px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    border: 4px solid grey;
+}
+
+.first-line{
+    width:600px;
+    height: 60px;
+    margin-top: 14px;
+    /* background-color: yellow; */
+}
+
+.first-line ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.first-line ul li>button {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.mc, .mr, .mplus, .m- {
+    background-color: rgb(236, 179, 34);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.m {
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.second-line {
+    width:600px;
+    height: 60px;
+    margin-top: 50px;
+    /* background-color: yellow; */
+}
+
+.second-line ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.second-line ul li>button {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+
+.seven, .eight, .nine, .divide {
+    background-color: rgb(236, 179, 34);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modulo {
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.third-line {
+    width:600px;
+    height: 60px;
+    margin-top: 50px;
+    /* background-color: yellow; */
+}
+
+.third-line ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.four, .five, .six, .x {
+    background-color: rgb(236, 179, 34);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oneOrx {
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.third-line ul li>button {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.last-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-line ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.fourth-line {
+    width:477px;
+    height: 100px;
+    margin-top: 30px;
+    /* background-color: yellow; */
+}
+.one, .two, .three, .minus {
+    background-color: rgb(236, 179, 34);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.zero, .dot, .plusOrminus, .plus {
+    background-color: rgb(236, 179, 34);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondBlock {
+    /* background-color: red; */
+    margin-top: 10px;
+}
+
+.fourth-line ul li>button {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.equalsTo {
+    height: 200px;
+    width: 80px;
+    /* background-color: red; */
+    margin-right: 12px;
+}
+
+.equalsTo ul {
+    list-style: none;
+}
+.equalsTo ul li>button {
+    margin-top: 29px;
+    width: 80px;
+    height: 167px;
+    border-radius: 10px;
+}
+
+
+.equalsTo ul li>button {
+     background-color: greenyellow;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
