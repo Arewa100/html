@@ -266,22 +266,26 @@ ul li a.testimonial {
 .empower-student-section article{
     width: 1440px;
     height: 500px;
-    background-color: pink;
+    /* background-color: pink; */
     margin-top: 200px;
+
 }
 
 .empower-student-div {
     width: 1180px;
     height: 413px;
     margin-left: 130px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-.empower-student-div {
+/* .empower-student-div {
     width: 550px;
     height: 388px;
     background-color: red;
-}
+} */
 
 .empower-student h1 {
     width: 485px;
@@ -309,7 +313,7 @@ ul li a.testimonial {
     width: 529px;
     height: 68px;
     margin-top: 9px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-between;
 
@@ -369,7 +373,7 @@ ul li a.testimonial {
 }
 
 .users h1 {
-    width: 80pxpx;
+    width: 80px;
     height: 40px;
     font-size: 32px;
     line-height: 40px;
@@ -428,3 +432,185 @@ ul li a.testimonial {
 
 
 
+.learn-more .learn-more-outside-div {
+    width: 180px;
+    height: 58px;
+    border-radius: 25px;
+    background-color: #2374EE;
+    margin-top: 62.5px;
+
+}
+
+.learn-more .learn-more-outside-div button {
+    color: #FFFFFF;
+    width: 89px;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: #2374EE;
+    border: #2374EE;
+    margin-left: 42px;
+    margin-top: 16px;
+
+}
+
+.grey-box {
+    width: 570px;
+    height: 413px;
+    border-radius: 16px;
+    filter: drop-shadow(10px 10px #282C4214);
+    background-color: #D3D5DA;
+}
+
+.forletter {
+    width: 1119px;
+    height: 1392px;
+    margin: auto;
+    background-color: pink;
+    margin-top: 20px;
+
+}
+
+.forletter  .our-main-feature {
+    width: 656px;
+    height: 125px;
+    /* background-color: yellow; */
+    margin: auto;
+}
+
+.forletter  .our-main-feature h1{
+    width: 370px;
+    height: 56px;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -1%;
+    color: #063852;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+.forletter  .our-main-feature p{
+    width: 656px;
+    height: 52px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #063852;
+    text-align: center;
+    color: #6C727F;
+}
+
+.secondContent {
+    width: 1039px;
+    height: 378px;
+    border-color: Greyscale / Grey 300;
+    /* background-color: blue; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calender-side-content {
+    width: 438px;
+    height: 324px;
+    margin-top: 50px;
+    /* background-color: yellow; */
+}
+
+.calender-side-content p {
+    width: 80px;
+    height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB700;
+}
+
+.calender-side-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1%;
+    font-weight: 700px;
+    color: #063852; 
+}
+
+.calender-side-content .content p {
+    width: 438px;
+    height: 144px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    color: #6C727F;
+}
+
+.discover-more-box {
+    /* background-color: red; */
+    margin-top: 25px;
+    width: 278px;
+    height: 24px;
+    color:#2374EE;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover-more-box h2.discover{
+    width: 246px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2374EE;
+    font-family: "Poppins", sans-serif;
+}
+
+.analytics-box {
+    width: 1062px;
+    height: 301px;
+    border-style: solid;
+    border-color: rgb(224, 219, 219);
+    margin-left: 50px;
+    background-color: blue;
+    margin-top: 120px;
+}
+
+
+
+
+.analytics-side-content {
+   
+}
+
+.analytics-side-content p {
+    width: 80px;
+    height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB700;
+}
+
+.analytics-side-content {
+    
+}
+
+.content-analytics p {
+    
+}
+
+.analytics-more-box {
+  
+}
+
+.analytics-more-box h2.discover{
+ 
+}
+
+.analytics-box {
+   
+}
